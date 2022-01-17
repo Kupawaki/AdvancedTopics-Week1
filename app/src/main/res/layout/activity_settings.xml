@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Settings">
 
+    <include android:id="@+id/mainTB" layout="@layout/toolbar"/>
+
     <TextView
         android:id="@+id/settingsTV"
         android:layout_width="wrap_content"
