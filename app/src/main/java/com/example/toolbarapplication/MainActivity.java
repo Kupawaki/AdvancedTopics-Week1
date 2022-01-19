@@ -3,13 +3,14 @@ package com.example.toolbarapplication;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
+
+    public int mode = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu)
     {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.example, menu);
+        inflater.inflate(R.menu.tb_menu, menu);
         return true;
     }
 
@@ -31,18 +32,35 @@ public class MainActivity extends AppCompatActivity {
     {
         int id = item.getItemId();
 
-        if(id == R.id.menuItemSettings)
+        //Color Switch
+        if(id == R.id.switchMode)
         {
-//            Intent intent = new Intent(MainActivity.this, Settings.class);
-//            startActivity(intent);
-//            return true;
-
             Toolbar toolbar = findViewById(R.id.mainTB);
-            toolbar.setTitle("Regular Toolbar");
-            toolbar.setElevation(0);
-            toolbar.setPopupTheme(R.style.Widget_AppCompat_ActionBar_Solid);
-            toolbar.setBackgroundColor(getResources().getColor(R.color.design_default_color_on_secondary));
-            return true;
+
+            if(mode == 0)
+            {
+                toolbar.setBackgroundColor(getResources().getColor(R.color.purple_200));
+                mode = 1;
+                return true;
+            }
+            else if(mode == 1)
+            {
+                toolbar.setBackgroundColor(getResources().getColor(R.color.teal_200));
+                mode = 2;
+                return true;
+            }
+            else
+            {
+                toolbar.setBackgroundColor(getResources().getColor(R.color.white));
+                mode = 0;
+                return true;
+            }
+        }
+
+        //Change activities
+        if(id == )
+        {
+
         }
 
         else
