@@ -1,13 +1,15 @@
-package com.example.drawers_and_bars;
+package com.example.navdrawersandactionbars;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.drawers_and_bars.databinding.FragmentFriendsBinding;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.example.navdrawersandactionbars.databinding.FragmentFriendsBinding;
 
 public class FriendsFragment extends Fragment {
 

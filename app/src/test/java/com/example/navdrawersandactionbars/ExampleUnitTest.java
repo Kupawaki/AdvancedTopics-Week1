@@ -1,4 +1,4 @@
-package com.example.toolbarapplication;
+package com.example.navdrawersandactionbars;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.drawers_and_bars;
+package com.example.navdrawersandactionbars;
 
 import androidx.appcompat.app.AppCompatActivity;
 

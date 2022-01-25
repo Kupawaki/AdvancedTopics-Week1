@@ -1,11 +1,13 @@
-package com.example.drawers_and_bars;
+package com.example.navdrawersandactionbars;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Menu;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.appcompat.widget.Toolbar;
@@ -16,7 +18,7 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.drawers_and_bars.databinding.ActivityMainBinding;
+import com.example.navdrawersandactionbars.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
