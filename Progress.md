@@ -8,8 +8,8 @@ My work with menu items and clipart was new to me. Clipart ended up being much e
 After I finished working with a toolbar alone, I started working with nav drawers, which were difficult. Lukcily, Android Studio has a template for me to deconstruct and rebuild. Nav drawers are awesome and useful, but I still dont understand everything about them, and is something I want to come back to. I would love to build one from scrath someday, but Dr. Hoot said that was an insane idea. Challenge Accepted.
 
 Overall, this week I learned how to
-1.) Create a custom layout file and use it as the action bar
-2.) Create and edit a custom menu file
-3.) Use said menu file in the action bar
-4.) Set properties of the action bar dynamically upon button presses
-5.) Use fragments and navigations to create and edit a nav drawer
+1. Create a custom layout file and use it as the action bar
+2. Create and edit a custom menu file
+3. Use said menu file in the action bar
+4. Set properties of the action bar dynamically upon button presses
+5. Use fragments and navigations to create and edit a nav drawer
