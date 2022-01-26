@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         Log.d("NAV", "ItemID=" + id);
+        Integer val = R.layout.design_navigation_menu;
+        Log.d("NAVIGA", val.toString());
 
         Toolbar toolbar = findViewById(R.id.toolbar);
 
@@ -82,13 +84,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
             startActivity(intent);
         }
-        else if(id == 16908332)
-        {
-            onSupportNavigateUp();
-        }
 
-        return true;
-    }
+
+        return super.onOptionsItemSelected(item);
+      }
 
     @Override
     public boolean onSupportNavigateUp()
