@@ -8,8 +8,7 @@ The goals for this week were to create an app template that included a customiza
 
 ### Problems Encountered
 
-#### Problem 1: Clicking the Hambuger Menu
-#### Status: Solved
+#### Problem 1: Clicking the Hambuger Menu \ #### Status: Solved
 
 ### App Completion Status
 
