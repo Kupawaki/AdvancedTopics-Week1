@@ -2,7 +2,7 @@
 
 ## Major Developments
 
-### Goals:  
+### Goals: <span style="color:red">some *blue* text</span>  
 The goals for this week were to create an app template that included a customizable toolbar, a premade menu file that could be easily changed, and a simple navigation drawer.
 
 ### Problems Encountered
